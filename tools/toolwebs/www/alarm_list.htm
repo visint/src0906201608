@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/button.css" type="text/css"/>
+<title>告警信息</title>
+</head>
+<style type="text/css">
+.c td{padding:5px;}
+.c td{font-size:15px;}
+</style>
+<body>
+<ul id="nav">
+	<li><span>告警管理=></span></li>
+  <li><a href="alarm_list.htm" class="current">告警信息</a></li>
+  <li><a href="alarm_mask.htm">告警屏蔽</a></li>
+  <li><a href="help/alarm.htm" target="new">帮助</a></li>
+</ul>
+<div id="content">
+<form action="alarm_list.htm" method="GET"><WINDWEB_URL>
+<table  border="1" align="center" cellpadding="0" cellspacing="0" class="dt">
+  <caption>告警信息</caption>
+  <tr class="toptitle">
+    <th>位置</th>
+    <th>告警信息</th>
+    <th>告警状态</th>
+    <th>发生时间</th>
+    <th>操作</th>
+  </tr>
+  <tr>
+    <td>主机箱 第2槽 端口1</td>
+    <td>端口离线</td>
+    <td>
+    未清除未确认
+    </td>
+    <td>09/09/2012 09:03:35</td>
+    <td>
+    	<a href="alarm_list.asp?operate=clr&aid=3">清除&nbsp;&nbsp;</a>
+    	<a href="alarm_list.asp?operate=acl&aid=3">确认&nbsp;&nbsp;</a>
+    	<a href="alarm_list.asp?operate=del&aid=3">删除</a>
+    </td>
+  </tr>
+  <tr>
+    <td>主机箱</td>
+    <td>电源1关闭</td>
+    <td>
+    未清除未确认
+    </td>
+    <td>09/09/2012 09:03:35</td>
+    <td>
+    	<a href="alarm_list.asp?operate=clr&aid=3">清除&nbsp;&nbsp;</a>
+    	<a href="alarm_list.asp?operate=acl&aid=3">确认&nbsp;&nbsp;</a>
+    	<a href="alarm_list.asp?operate=del&aid=3">删除</a>
+    </td>
+  </tr>
+  <tr>
+    <td>主机箱 第3槽 端口2</td>
+    <td>光模块脱位</td>
+    <td>
+    已清除未确认
+    </td>
+    <td>09/09/2012 09:03:35</td>
+    <td>
+    	<a href="alarm_list.asp?operate=clr&aid=3">清除&nbsp;&nbsp;</a>
+    	<a href="alarm_list.asp?operate=acl&aid=3">确认&nbsp;&nbsp;</a>
+    	<a href="alarm_list.asp?operate=del&aid=3">删除</a>
+    </td>
+  </tr>
+  <tr>
+    <td>主机箱 第5槽</td>
+    <td>单元盘脱位</td>
+    <td>
+    未清除已确认
+    </td>
+    <td>09/09/2012 09:03:35</td>
+    <td>
+    	<a href="alarm_list.asp?operate=clr&aid=3">清除&nbsp;&nbsp;</a>
+    	<a href="alarm_list.asp?operate=acl&aid=3">确认&nbsp;&nbsp;</a>
+    	<a href="alarm_list.asp?operate=del&aid=3">删除</a>
+    </td>
+  </tr>
+  <%AlarmList();%>
+</table>
+<br />
+
+<div align="center">
+<a class="button gray medium" href="alarm_list.asp?operate=clr&aid=0">清除全部告警</a>
+<a class="button gray medium" href="alarm_list.asp?operate=ack&aid=0">确认全部告警</a>
+<a class="button gray medium" href="alarm_list.asp?operate=del&aid=0">删除全部告警</a>
+</div>
+</form>
+</div>
+</body>
+</html>

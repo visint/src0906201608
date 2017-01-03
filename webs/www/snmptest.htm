@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="../css/style.css" type="text/css" />
+<link rel="stylesheet" href="../css/button.css" type="text/css" />
+<title>System Info</title>
+</head>
+<style type="text/css">
+.c td{padding:3px;}
+</style>
+<body>
+<ul id="nav">
+  <li><span>SNMP=></span></li>
+  <li><a href="snmpconf.asp">SNMP 团体名配置</a></li>
+  <li><a href="desthost.asp">目标主机</a></li>
+  <li><a href="snmptest.htm" class="current">SNMP 测试</a></li>
+  <li><a href="help/snmp.htm" target="new">帮助</a></li>
+</ul>
+<div id="content">
+<form name="genForm" method="post" action="">
+<div class="cbox">
+   SNMP 连通测试
+</div>
+<iframe width=100% src="/cgi-bin/snmptest.sh"></iframe>
+<table align="center">
+<tr>
+ <td>
+  <input class="button white medium" type="button" value="开始测试" onclick="window.location.href('snmptest.htm');" name="refresh">
+ </td>
+ </tr>	
+</table>
+</form>
+</div>
+</body>
+</html>

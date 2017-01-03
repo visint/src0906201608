@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/button.css" type="text/css" />
+ <script src="js/msg.js" type="text/javascript"></script>
+<title>单元盘固件升级</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #C0C0C0;
+}
+h2 { color:#FFFFFF;font-size:14px;}
+-->
+</style></head>
+<body>
+<script language="javascript" type="text/javascript">
+
+</script>
+
+<ul id="nav">
+  <li><span>系统管理=></span></li>
+  <li><a href="ip.asp">网络配置</a></li>
+  <li><a href="restore.asp">恢复出厂设置</a></li>
+  <li><a href="reset.htm">重启</a></li>
+  <li><a href="upgrade.htm">NMU升级</a></li>
+  <li><a href="uupgrade.htm" class="current">单元盘升级</a></li>
+  <li><a href="ie_conf.htm">定时刷新</a></li>
+  <li><a href="../help/sys.htm" target="new">帮助</a></li>
+</ul>
+<div id="content">
+<SPAN style="COLOR: #ff">
+<div class="cbox">升级单元盘固件</div> 
+<div class="cbox" style="COLOR: red">注意:升级前会关闭某些进程,升级后请重启系统</div>
+<form id="softupdate" action=/goform/command method=POST enctype="multipart/form-data">
+	  <input type="hidden" name="id" value="2"/> 
+    <table align="center"> 
+    	<tr> 
+       <td> <input id="fileuploadsubmit" class="button white medium" type="submit" name="update" value="下一步">  </td>  
+      </tr>
+    </table>  
+</form>    
+</SPAN>
+<div id="ibox" class="ibox" style="height:60px"></div>
+</div>
+</body>
+</html>
+

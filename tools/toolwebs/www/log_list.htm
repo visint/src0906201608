@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/button.css" type="text/css"/>
+<title>日志管理</title>
+</head>
+
+<body>
+<ul id="nav">
+	<li><span>日志管理=></span></li>
+  <li><a href="log_list.htm" class="current">登陆日志</a></li>
+  <li><a href="sys_log.htm">系统日志</a></li>
+  <li><a href="opt_log.htm">操作日志</a></li>
+  <li><a href="help/log.htm" target="new">帮助</a></li>
+</ul>
+<div id="content">
+<form action="log_list.htm" method="post">
+<table border="1" align="center" cellpadding="0" cellspacing="0" class="dt">
+  <thead>
+  	<tr>
+		 <th colspan="5">登陆日志列表</th>
+		 </tr>
+  </thead>
+  <tr class="toptitle">
+    <th>用户名</th>
+    <th>登入/登出</td>
+    <th>登入/登出方式</th>
+    <th>登入/登出时间</th>
+    <th>操作</th>
+  </tr>
+  <tr>
+    <td>admin</td>
+    <td>登入</td>
+    <td>CLI</td>
+    <td>09/09/2012 09:03:35</td>
+    <td>
+    	<a href="log_list.asp?operate=del&aid=3">删除</a>
+    </td>
+  </tr>
+  <tr>
+    <td>admin</td>
+    <td>登出</td>
+    <td>CLI</td>
+    <td>09/08/2012 09:03:35</td>
+    <td>
+    	<a href="log_list.asp?operate=del&aid=4">删除</a>
+    </td>
+  </tr>
+  <tr>
+    <td>admin</td>
+    <td>登入</td>
+    <td>Web</td>
+    <td>09/08/2012 09:03:35</td>
+    <td>
+    	<a href="log_list.asp?operate=del&aid=5">删除</a>
+    </td>
+  </tr>
+</table>
+<br />
+<div align="center">
+<input class="button gray medium" type="submit" value="删除全部登陆日志"/>
+</div>
+</form>
+</div>
+</body>
+</html>

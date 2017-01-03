@@ -1,0 +1,3 @@
+﻿.hupane .pimg{position:relative;overflow:hidden;}
+.hupane .pimg span{position:absolute;left:50%;top:50%;}
+.hupane .pimg span img{position:relative;left:-50%;top:-50%;}

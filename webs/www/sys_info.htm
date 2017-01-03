@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<title>System Info</title>
+</head>
+<style type="text/css">
+.c td{padding:3px;}
+</style>
+<body>
+<ul id="nav">
+  <li><a href="sys_info.htm" class="current">系统信息</a></li>
+  <li><a href="chassis.htm">电源/风扇</a></li>
+  <li><a href="help/sys_info.htm" target="new">帮助</a></li>
+</ul>
+<div id="content">
+<form name="genForm" method="get" action="sys_info.htm">
+<table border="1" align="center" cellpadding="0" cellspacing="0" class="dt">
+  <caption>
+    系统信息
+  </caption>
+  <tr>
+    <th>设备名称</th>
+    <td colspan="3">
+       <input id="devname" name="devname" />
+     </td>
+    <th>序列号</th>
+    <td></td>
+    <th>制造日期</th>
+    <td></td>
+  </tr>
+  <tr>
+    <th>设备联系</th>
+    <td colspan="3">
+        <input name="CONTACT" />
+      </td>
+    <th>固件版本</th>
+    <td></td>
+    <th>硬件版本</th>
+    <td></td>
+  </tr>
+  <tr>
+    <th>设备位置</th>
+    <td colspan="3">
+        <input name="loc" />
+      </td>
+    <th>系统日期</th>
+    <td>
+       <input name="sysdate" size="10" />
+     </td>
+    <th>系统时间</th>
+    <td>
+       <input name="systime" size="10" />
+    </td>
+  </tr>
+  <tr>
+    <th>描述</th>
+    <td colspan="3"></td>
+    <th>机箱温度°C</th>
+    <td>35</td>
+    <th>运行时间</th>
+    <td>18天6小时10分</td>
+  </tr>
+
+</table>
+<table align="center">
+	<tr>
+   	<td>
+        <input type="button" value="刷新" name="refresh" style="width:80px;">
+    </td>
+   	<td>
+        <input type="submit" value="应用" name="apply" style="width:80px;">
+    </td>
+   </tr>	
+</table>
+</form>
+</div>
+</body>
+</html>
+<script ></script>

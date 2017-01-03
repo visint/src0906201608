@@ -1,0 +1,238 @@
+almutil.o: ../visdb/dbutil/almutil.c \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/stdio.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/features.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_config.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/cdefs.h \
+ /home/lxc/buildroot-at91/output/host/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabi/4.8.4/include/stddef.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/types.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/wordsize.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/typesizes.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/pthreadtypes.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/endian.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/endian.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/byteswap.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap-common.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_stdio.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_mutex.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/pthread.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sched.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/time.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/sched.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/time.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/signal.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/sigset.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/setjmp.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_pthread.h \
+ /home/lxc/buildroot-at91/output/host/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabi/4.8.4/include/stdarg.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/stdio_lim.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/string.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/msg.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/ipc.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/ipc.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/msq.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/unistd.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/posix_opt.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/confname.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/getopt.h \
+ ../include/unit.h ../include/typedefs.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/select.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/select.h \
+ ../include/infoset.h ../include/public.h ../include/sqlite3.h \
+ ../include/dbutil.h ../include/vispaceio.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/stdlib.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/types.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/sysmacros.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/alloca.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/errno.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/errno.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/linux/errno.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm/errno.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm-generic/errno.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm-generic/errno-base.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/fcntl.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/fcntl.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/poll.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/poll.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/poll.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/malloc.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/stat.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/stat.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/termios.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/termios.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/ttydefaults.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/linux/serial.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/linux/types.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm/types.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm-generic/int-ll64.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm/bitsperlong.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm-generic/bitsperlong.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/linux/posix_types.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/linux/stddef.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm/posix_types.h \
+ /home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm-generic/posix_types.h \
+ ../include/chassis.h ../include/visipc.h ../include/alarm.h
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/stdio.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/features.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_config.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/cdefs.h:
+
+/home/lxc/buildroot-at91/output/host/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabi/4.8.4/include/stddef.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/types.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/wordsize.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/typesizes.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/pthreadtypes.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/endian.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/endian.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/byteswap.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap-common.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_stdio.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_mutex.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/pthread.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sched.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/time.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/sched.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/time.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/signal.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/sigset.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/setjmp.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_pthread.h:
+
+/home/lxc/buildroot-at91/output/host/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabi/4.8.4/include/stdarg.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/stdio_lim.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/string.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/msg.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/ipc.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/ipc.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/msq.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/unistd.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/posix_opt.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/confname.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/getopt.h:
+
+../include/unit.h:
+
+../include/typedefs.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/select.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/select.h:
+
+../include/infoset.h:
+
+../include/public.h:
+
+../include/sqlite3.h:
+
+../include/dbutil.h:
+
+../include/vispaceio.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/stdlib.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/types.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/sysmacros.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/alloca.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/errno.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/errno.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/linux/errno.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm/errno.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm-generic/errno.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm-generic/errno-base.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/fcntl.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/fcntl.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/poll.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/poll.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/poll.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/malloc.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/stat.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/stat.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/termios.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/termios.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/ttydefaults.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/linux/serial.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/linux/types.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm/types.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm-generic/int-ll64.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm/bitsperlong.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/linux/posix_types.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/linux/stddef.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm/posix_types.h:
+
+/home/lxc/buildroot-at91/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm-generic/posix_types.h:
+
+../include/chassis.h:
+
+../include/visipc.h:
+
+../include/alarm.h:

@@ -1,0 +1,5 @@
+﻿ul#nav{ overflow:hidden;}
+#container1{
+width:100%;
+min-width:1260px;
+width: expression(document.body.clientWidth< 1260 ? "1260px" : "100%");}
